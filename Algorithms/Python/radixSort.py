@@ -73,7 +73,8 @@ def radixSort(arr):
         exp *= 10
  
 # Driver code to test above
-arr = [ 170, 45, 75, 90, 802, 24, 2, 66]
+str_arr = raw_input().split(' ') 
+arr = [int(num) for num in str_arr]
 radixSort(arr)
  
 for i in range(len(arr)):
